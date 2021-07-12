@@ -1,0 +1,32 @@
+/*内边距*/
+@for $i from 0 through 50 {
+  #{$prefix}-padding-#{$i} {
+    padding: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-t-#{$i} {
+    padding-top: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-b-#{$i} {
+    padding-bottom: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-l-#{$i} {
+    padding-left: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-r-#{$i} {
+    padding-right: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-lr-#{$i} {
+    padding-left: #{$i}px !important;
+    padding-right: #{$i}px !important;
+  }
+
+  #{$prefix}-padding-tb-#{$i} {
+    padding-top: #{$i}px !important;
+    padding-bottom: #{$i}px !important;
+  }
+}

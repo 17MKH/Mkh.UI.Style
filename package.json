@@ -1,0 +1,22 @@
+{
+  "name": "mkh-ui-style",
+  "version": "1.0.2",
+  "description": "17MKH通用样式库",
+  "main": "src/index.scss",
+  "scripts": {
+    "build": "sass src/index.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17MKH/Mkh.UI.Style.git"
+  },
+  "author": "OLDLI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17MKH/Mkh.UI.Style/issues"
+  },
+  "homepage": "https://github.com/17MKH/Mkh.UI.Style#readme",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}

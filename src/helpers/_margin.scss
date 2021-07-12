@@ -1,0 +1,30 @@
+/*外边距*/
+@for $i from 0 through 50 {
+  #{$prefix}-margin-#{$i} {
+    margin: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-t-#{$i} {
+    margin-top: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-b-#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-l-#{$i} {
+    margin-left: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-r-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-tb-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+
+  #{$prefix}-margin-lr-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+}

@@ -1,0 +1,95 @@
+/*边框*/
+#{$prefix}-border {
+  /*无边框*/
+  &-none {
+    border-width: 0 !important;
+  }
+
+  /*边框颜色*/
+  &-info {
+    border-color: $color-info !important;
+  }
+
+  &-primary {
+    border-color: $color-primary !important;
+  }
+
+  &-success {
+    border-color: $color-success !important;
+  }
+
+  &-warning {
+    border-color: $color-warning !important;
+  }
+
+  &-danger {
+    border-color: $color-danger !important;
+  }
+
+  /*边框宽度*/
+  @for $i from 0 through 30 {
+    &-#{$i} {
+      border-width: #{$i}px !important;
+    }
+
+    /*上边框*/
+    &-t-#{$i} {
+      border-width: 0 !important;
+      border-top-width: #{$i}px !important;
+    }
+
+    /*下边框*/
+    &-b-#{$i} {
+      border-width: 0 !important;
+      border-bottom-width: #{$i}px !important;
+    }
+
+    /*左边框*/
+    &-l-#{$i} {
+      border-width: 0 !important;
+      border-left-width: #{$i}px !important;
+    }
+
+    /*右边框*/
+    &-r-#{$i} {
+      border-width: 0 !important;
+      border-right-width: #{$i}px !important;
+    }
+  }
+
+  /*边框圆角*/
+  @for $i from 0 through 50 {
+    &-radius-#{$i} {
+      border-radius: #{$i}px !important;
+    }
+
+    &-radius-t-#{$i} {
+      border-top-left-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    &-radius-b-#{$i} {
+      border-bottom-left-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+    &-radius-l-#{$i} {
+      border-top-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    &-radius-r-#{$i} {
+      border-top-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+  }
+
+  /*边框样式*/
+  &-solid {
+    border-style: solid !important;
+  }
+
+  &-dotted {
+    border-style: dotted !important;
+  }
+}
