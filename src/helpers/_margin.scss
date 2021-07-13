@@ -21,10 +21,12 @@
   }
 
   #{$prefix}-margin-tb-#{$i} {
-    margin-right: #{$i}px !important;
+    margin-top: #{$i}px !important;
+    margin-bottom: #{$i}px !important;
   }
 
   #{$prefix}-margin-lr-#{$i} {
+    margin-left: #{$i}px !important;
     margin-right: #{$i}px !important;
   }
 }

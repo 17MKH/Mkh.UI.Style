@@ -1,6 +1,6 @@
 {
   "name": "mkh-ui-style",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "17MKH通用样式库",
   "main": "src/index.scss",
   "scripts": {
