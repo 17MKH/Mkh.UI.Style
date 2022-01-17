@@ -11,9 +11,14 @@
   display: none !important;
 }
 
+/*水平居中*/
+#{$prefix}-center-h {
+  display: flex;
+  justify-content: center;
+}
+
 /*垂直居中*/
-#{$prefix}-vertical-center {
+#{$prefix}-center-v {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
