@@ -10,3 +10,10 @@
 #{$prefix}-hidden {
   display: none !important;
 }
+
+/*垂直居中*/
+#{$prefix}-vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
